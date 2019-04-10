@@ -16,12 +16,6 @@ published : true
 theme : black
 
 #
-# Footnote Setting
-# Doc: https://gitpitch.com/docs/settings/footnote
-#
-footnote : "uShip"
-
-#
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
