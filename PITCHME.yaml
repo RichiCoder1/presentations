@@ -13,14 +13,7 @@ published : true
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : simple
-
-#
-# Theme-Override Setting
-# Doc: https://gitpitch.com/docs/settings/custom-theme
-#
-theme-override : template/css/PITCHME.css
-
+theme : black
 #
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
@@ -32,7 +25,7 @@ logo-position : top-left
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "uShip"
 
 #
 # Highlight (Code) Setting
@@ -58,6 +51,6 @@ transition : none
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch - The Quickstart Template"
-description : "High-utility markdown slide templates for GitPitch presentation authors."
+title : "RichiCoder1 - React Hooks"
+description : "A presentation on React Hooks"
 thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
