@@ -1,7 +1,7 @@
 ---
 @title[Introduction]
 
-@snap[west text-bold]
+@snap[center text-bold]
 React Hooks<br>*The Future of Stateful React*
 @snapend
 
@@ -10,7 +10,7 @@ React Hooks<br>*The Future of Stateful React*
 
 @css[text-15 text-bold](What are React Hooks?)
 
-@css[text-09 fragment](Way to Use State & Lifecycle *without* Verbose Class Components)
+@css[text-09 fragment](Use State & Lifecycle *without* Verbose Class Components)
 
 ---
 @title[Example - useState]
