@@ -179,8 +179,6 @@ Remember that `resource` function?
 
 ### Resources
 
-@ul
-
 - [Official Guide](https://reactjs.org/docs/hooks-intro.html)
 
 - [Dan Abramov's Blogg](https://overreacted.io/)
