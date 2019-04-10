@@ -181,7 +181,7 @@ Note:
 
 @ulend
 
-Notes:
+Note:
 
  - Almost every major react library has released a hooks capability or had a hooks fork created (sometimes many)
 
