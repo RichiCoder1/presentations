@@ -1,6 +1,6 @@
 ---
 @title[Introduction]
 
-@snap[west]
-GitPitch<br>*The Template*
+@snap[west text-bold]
+React Hooks<br>*The Future of Stateful React*
 @snapend
