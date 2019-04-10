@@ -15,7 +15,7 @@ React Hooks<br>*The Future of Stateful React*
 ---
 @title[Example - useState]
 
-@code[javascript code-blend](pitchme/useState.jsx)
+@code[javascript code-blend](presentations/react-hooks/useState.jsx)
 
 @[2](Maaaaaagic)
 
@@ -23,11 +23,11 @@ React Hooks<br>*The Future of Stateful React*
 @title[Side by Side]
 
 @snap[west span-50]
-@code[jsx zoom-05 code-noscroll](pitchme/useState--Before.jsx)
+@code[jsx zoom-05 code-noscroll](presentations/react-hooks/useState--Before.jsx)
 @snapend
 
 @snap[east span-50]
-@code[jsx zoom-05](pitchme/useState.jsx)
+@code[jsx zoom-05](presentations/react-hooks/useState.jsx)
 @snapend
 
 ---?color=rgb(40, 44, 52)
@@ -62,7 +62,7 @@ const value = useContext(MyContext);
 ---
 @title[Practical Example]
 
-@code[jsx code-blend zoom-06](pitchme/useEffect.jsx)
+@code[jsx code-blend zoom-06](presentations/react-hooks/useEffect.jsx)
 
 @[3-13] (Do some work on Mount)
 
@@ -111,7 +111,7 @@ const expensiveValue = useMemo(() => /*...*/, [a, b]);
 
 Remember that `resource` function?
 
-@code[jsx fragment](pitchme/composable.jsx)
+@code[jsx fragment](presentations/react-hooks/composable.jsx)
 
 @css[fragment text-08](Hooks can be used inside other functions<br>as long as the root function is render)
 
@@ -120,15 +120,15 @@ Remember that `resource` function?
 
 ## Global State? Sure
 
-@code[jsx fragment zoom-07](pitchme/api.jsx)
-@code[jsx fragment zoom-07](pitchme/view.jsx)
+@code[jsx fragment zoom-07](presentations/react-hooks/api.jsx)
+@code[jsx fragment zoom-07](presentations/react-hooks/view.jsx)
 
 +++
 @title[All Together Now]
 
 ### All Together Now
 
-@code[jsx zoom-07 code-power](pitchme/multiContext.jsx)
+@code[jsx zoom-07 code-power](presentations/react-hooks/multiContext.jsx)
 
 ---
 @title[Catch]
@@ -147,6 +147,18 @@ Remember that `resource` function?
 - Legacy/Function Split
 
 - Easy to over/compute re-render
+
+Note: 
+
+- If asked, talk about how hooks are implemented.
+
+- For no hooks components, you'll have to create a HoC or equvalent if you want to share between a hooks code base and an Class/Fuction code base
+
+- Forgetting memo props means will always rerender (`useEffect`)
+
+- Any update to context will update all consumers, no way to select
+
+- Still need a state library for large state atoms, but for small pieces of state `useContext` works well
 
 @ulend
 
@@ -169,6 +181,14 @@ Remember that `resource` function?
 
 @ulend
 
+Notes:
+
+ - Almost every major react library has released a hooks capability or had a hooks fork created (sometimes many)
+
+ - MobX has hooks, Redux just released the ground work for hooks, and there's lots of simple hook based state libraries popping up
+
+ - Redux looking to reduce boilerplate with hooks too, while preserving the spirit
+
 ---
 @title[Q/A]
 
@@ -184,3 +204,5 @@ Remember that `resource` function?
 - [Dan Abramov's Blogg](https://overreacted.io/)
 
 - [Rooks (hooks compilation)](https://react-hooks.org/)
+
+- [MobX Lite](https://github.com/mobxjs/mobx-react-lite)
